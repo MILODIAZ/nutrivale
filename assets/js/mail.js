@@ -61,7 +61,6 @@ function sendEmail() {
 }
 
 function checkInputs() {
-    console.log("inputs checked")
     const items = document.querySelectorAll(".item");
 
     for (const item of items) {
