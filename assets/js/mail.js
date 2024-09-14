@@ -9,9 +9,9 @@ function sendEmail() {
     const bodyMessage = `Nombre completo: ${fullName.value}<br> Correo: ${email.value}<br> Fono: ${phone.value}<br> Mensaje: ${message.value}`;
 
     Email.send({
-        SecureToken: "2723bad1-0026-4924-aabd-cfa3e1fe60f0",
-        To: 'emilio.diaz@alumnos.ucn.cl',
-        From: "emilio.diaz@alumnos.ucn.cl",
+        SecureToken: "a3ae227c-d8a8-4c51-a832-fd7beffc3b8a",
+        To: 'valentinadiaz.ntadeportiva@gmail.com',
+        From: "valentinadiaz.ntadeportiva@gmail.com",
         Subject: "Mensaje desde página Web",
         Body: bodyMessage
     }).then(

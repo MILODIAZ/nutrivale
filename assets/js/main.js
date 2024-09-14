@@ -17,7 +17,7 @@
       // === logo change
       if (ud_header.classList.contains("sticky")) {
         document.querySelector(".header-logo").src =
-          "assets/images/logo/logo.png"
+          "assets/images/logo/logo-purple.png"
       } else {
         document.querySelector(".header-logo").src =
           "assets/images/logo/logo.png"
